@@ -6,7 +6,10 @@ import tools.DataInput;
 
 public class XThread extends Thread{
 	public String input;
+	
 	public void run(){
+		
+	
 		//System.out.println("Thread is live");
 		
 		while(true){
@@ -21,6 +24,7 @@ public class XThread extends Thread{
 			}
 			else {
 				Mavery.listen(input);
+				
 			}
 		}
 	}
